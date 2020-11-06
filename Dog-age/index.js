@@ -17,6 +17,8 @@ function logic(){
   }
   if(dogAge>28){
     alert("Waaw!!! Your dog is the oldest dog ever alive. Please apply for guinness record!!!");
+  }else if(dogAge<0){
+    alert("Please enter a valid number");
   }
   var humanAge = (dogAge-2)*4 + 21;
   $(".human-age").text(" Your dog's age is equivalent to "+humanAge + " human years");
